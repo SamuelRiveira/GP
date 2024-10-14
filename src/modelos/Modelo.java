@@ -53,20 +53,3 @@ public class Modelo {
         }
     }
 }
-
-
-/*
-
-ELIMINAR Y CREAR PROCESO
-
-ProcessBuilder pb01 = new ProcessBuilder(campoTexto1.getText());
-        try {
-            Process p01 = pb01.start();
-            Thread.sleep(5000);
-            p01.destroy();
-        } catch (IOException ex) {
-            Logger.getLogger(Estructura.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (InterruptedException ex) {
-            Logger.getLogger(Estructura.class.getName()).log(Level.SEVERE, null, ex);
-        }
-*/
